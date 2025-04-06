@@ -1,7 +1,7 @@
 # A2AR_analysis
 
 ## Ligand Binding Analysis and Water Mapping
-This repository contains all scripts, plots, and data files from our Master's project in Molecular Dynamics Simulations class. The main goal of the project is to analyze ligand binding modes, protein-ligand interactions, solvent density around an adenosine receptor (A2AR) in the presence of different ligands and also ligand unbinding. Due to file size constraints, only a subset of the project is hosted here; the complete dataset including trajectory files and heavy outputs is available via a shared Drive folder, available upon request.
+This repository contains scripts, plots, and data files from our Master's project in Molecular Dynamics Simulations class. The main goal of the project is to analyze ligand binding modes, protein-ligand interactions, solvent density around an adenosine receptor (A2AR) in the presence of different ligands and also ligand unbinding. Due to file size constraints, only a subset of the project is hosted here; the complete dataset including trajectory files and heavy outputs is available via a shared Drive folder, available upon request.
 
 ## Project Overview
 We investigated the interaction of the A2A adenosine receptor with three ligands:
