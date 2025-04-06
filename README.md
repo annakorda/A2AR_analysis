@@ -14,7 +14,7 @@ For each ligand system, we performed:
 1. Molecular dynamics simulations
 2. Ligand RMSD and protein RMSD analysis
 3. Contact frequency calculations
-4. Water density mapping 
+4. Water occupancy mapping 
 5. Ligand binding pose comparison and superimposition
 6. Steered Molecular Dynamics
 
