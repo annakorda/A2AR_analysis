@@ -41,7 +41,7 @@ RMSD_Contacts/: RMSD and contact analysis for all three ligands.
 
 Superimposition/: Images comparing receptor conformations across ligand states.
 
-Water_map/: Includes .dx volumetric maps and gro files used for water density calculations, along with a Python script for plotting.
+Water_map/: Includes .dx volumetric maps and gro files used for water occupancy calculations, along with a Python script for plotting.
 
 Final_plots_all/: Summary plots combining data from all systems for quick comparison.
 
