@@ -1,0 +1,24 @@
+#0 is ADN
+#1 is MOD1 (blue)
+#2 is MOD2 (pink)
+
+Matchmaker Title (#0) with Title (#1), sequence alignment score = 1576.5
+with these parameters:
+	chain pairing: bb
+	Needleman-Wunsch using BLOSUM-62
+	ss fraction: 0.3
+	gap open (HH/SS/other) 18/18/6, extend 1
+	ss matrix:  (O, S): -6 (H, O): -6 (H, H): 6 (S, S): 6 (H, S): -9 (O, O): 4
+	iteration cutoff: 2
+RMSD between 172 pruned atom pairs is 1.109 angstroms; (across all 313 pairs: 3.450)
+
+
+Matchmaker Title (#0) with Title (#2), sequence alignment score = 1553.1
+with these parameters:
+	chain pairing: bb
+	Needleman-Wunsch using BLOSUM-62
+	ss fraction: 0.3
+	gap open (HH/SS/other) 18/18/6, extend 1
+	ss matrix:  (O, S): -6 (H, O): -6 (H, H): 6 (S, S): 6 (H, S): -9 (O, O): 4
+	iteration cutoff: 2
+RMSD between 222 pruned atom pairs is 1.187 angstroms; (across all 313 pairs: 2.395)

@@ -1,0 +1,44 @@
+Charmm-gui parameters for modifications
+https://www.charmm-gui.org/
+
+# Input files MOD1
+final_mod1.pdb
+MOD1.mol2
+
+#Input files MOD2
+final_mod2.pdb
+MOD2.mol2
+
+#Uploading
+Protein/Membrane System > Download Source: OPM , PDB Format: PDB
+
+#Model/Chain Selection
+Select both chain A and UNK (in both cases UNK was the modified ligand)
+
+#PDB Manipulation options
+Terminal group patching: PROA > ACE, CT3
+
+#Disulfide Bonds
+CYS262-CYS259
+CYS159-CYS71
+CYS74-CYS146
+CYS77-CYS166
+
+#Orientation 
+Align the First Principal Axis Along Z
+
+#Area Calculation Options
+Generate Pore Water and Measure Pore Size > Using protein geometry
+
+#System size determination
+Box Tyoe: Rectangular
+Water thickness: 12
+Length of XY based on: Ratios of lipud components
+Length of X and Y: 90 #bigger box to avoid periodic boundary condition effects
+Lipid Type: POPC 1:1
+
+#Input Generation Options:
+GROMACS, NAMD
+
+#Equilibration Options:
+Generate grid information for PME FFT automatically, NPT ensemble
