@@ -48,15 +48,17 @@ Final_plots_all/: Summary plots combining data from all systems for quick compar
 ### Steered_Molecular_Dynamics/
 Simulations and analysis of ligand unbinding via Steered MD (SMD).
 
-A2AR-ADN/namd/ and A2AR-MOD2/namd/: NAMD SMD input files
+A2AR-ADN/namd/ and A2AR-MOD2/namd/: NAMD SMD input files and scripts
 
-    results/: Output logs, force data, and contact results
+results/: Output logs, force data, and contact results
 
 Results_analysis/:
 
-    plots/: Heatmaps, unbinding curves, and VMD snapshots
+plots/: Heatmaps, unbinding curves, and VMD snapshots
 
-    scripts/: Analysis notebooks (Unbinding_graph.ipynb, Heatmaps.ipynb)
+scripts/: Analysis notebooks (Unbinding_graph.ipynb, Heatmaps.ipynb)
+
+Unbinding_graph.xlsx: Processed ligand_smd.out files of both ligands ready for plotting.
 
 ## LICENSE
 Open-source license for the code and data shared here.
