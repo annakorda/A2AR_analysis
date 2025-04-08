@@ -45,6 +45,19 @@ Water_map/: Includes .dx volumetric maps and gro files used for water occupancy 
 
 Final_plots_all/: Summary plots combining data from all systems for quick comparison.
 
+### Steered_Molecular_Dynamics/
+Simulations and analysis of ligand unbinding via Steered MD (SMD).
+
+A2AR-ADN/namd/ and A2AR-MOD2/namd/: NAMD SMD input files
+
+    results/: Output logs, force data, and contact results
+
+Results_analysis/:
+
+    plots/: Heatmaps, unbinding curves, and VMD snapshots
+
+    scripts/: Analysis notebooks (Unbinding_graph.ipynb, Heatmaps.ipynb)
+
 ## LICENSE
 Open-source license for the code and data shared here.
 
@@ -59,4 +72,6 @@ Contact Analysis: Use the provided .sh scripts to extract and reformat contacts 
 Plotting: Run the R script (Plots_rmsd_contacts.R) to regenerate RMSD and contact plots.
 
 Water Maps: Use water_plots_code.py to visualize .dx files. Requires MDAnalysis, matplotlib, and numpy.
+
+SMD Visualization: Use Unbinding_graph.ipynb to explore PMF and force-time relationships
 
