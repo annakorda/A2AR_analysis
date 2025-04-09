@@ -54,9 +54,9 @@ results/: Output logs, force data, and contact results
 
 Results_analysis/:
 
-plots/: Heatmaps, unbinding curves, and VMD snapshots
+plots/: Heatmaps, unbinding curves, PMF and VMD snapshots
 
-scripts/: Analysis notebooks (Unbinding_graph.ipynb, Heatmaps.ipynb)
+scripts/: Analysis notebooks for contacts (Heatmaps.ipynb), Unbinding pattern (Unbinding_graph.ipynb), and PMF profile (PMF.ipynb).
 
 Unbinding_graph.xlsx: Processed ligand_smd.out files of both ligands ready for plotting.
 
@@ -75,5 +75,5 @@ Plotting: Run the R script (Plots_rmsd_contacts.R) to regenerate RMSD and contac
 
 Water Maps: Use water_plots_code.py to visualize .dx files. Requires MDAnalysis, matplotlib, and numpy.
 
-SMD Visualization: Use Unbinding_graph.ipynb to explore PMF and force-time relationships
+SMD Visualization: Use Unbinding_graph.ipynb anf PMF.ipynb to explore force-time relationships and PMF.
 
