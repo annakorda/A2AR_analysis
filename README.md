@@ -56,7 +56,7 @@ Results_analysis/:
 
 plots/: Heatmaps, unbinding curves, PMF and VMD snapshots
 
-scripts/: Analysis notebooks for contacts (Heatmaps.ipynb), Unbinding pattern (Unbinding_graph.ipynb), and PMF profile (PMF.ipynb).
+scripts/: Analysis notebooks for contacts, unbinding patter, and PMF profile.
 
 Unbinding_graph.xlsx: Processed ligand_smd.out files of both ligands ready for plotting.
 
